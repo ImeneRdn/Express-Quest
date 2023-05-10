@@ -4,7 +4,7 @@ const express = require("express");
 
 const app = express();
 
-const port = process.env.APP_PORT ?? 5002;
+const port = process.env.APP_PORT ?? 5000;
 
 const welcome = (req, res) => {
   res.send("Welcome to my favourite movie list");
