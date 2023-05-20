@@ -27,12 +27,12 @@ database
   .catch((err) => {
     console.error(err);
   }); */
-database
+/* database
   .query("select * FROM movies")
   .then(([movies]) => {
     res.json(movies);
   })
   .catch((err) => {
     console.error(err);
-  });
+  }); */
 module.exports = database;

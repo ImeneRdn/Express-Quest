@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS movies;
 
 CREATE TABLE movies (
   id int primary key NOT NULL AUTO_INCREMENT,
-  title varchar(255) NOT NULL,
+  title varchar(255)  NOT NULL,
   director varchar(255) NOT NULL,
   year varchar(255) NOT NULL,
   color varchar(255) NOT NULL,
